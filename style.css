@@ -1,0 +1,231 @@
+/*GENERAL*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-image: url("https://ffwallpaper.com/card/sunset-sky/sunset-sky-10.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 1em;
+  font-family: "Poppins", sans-serif;
+  color: blanchedalmond;
+}
+.borderGrid,
+footer,
+.nav__list {
+  border: 1px solid #45a29170;
+}
+h1 {
+  color: blanchedalmond;
+  font-size: 6rem;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #18443cba, #45a29170);
+  border: 1px solid #45a29170;
+}
+main,
+section,
+.headingTreatmentGrid {
+  animation-duration: 2.5s;
+  animation-name: show;
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h3 {
+  color: blanchedalmond;
+  font-size: 3rem;
+  margin: 2rem;
+}
+p {
+  font-size: 1.5rem;
+  line-height: 4rem;
+  margin: 2rem;
+}
+
+/*NAVIGATION*/
+.nav__list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+}
+.nav__list,
+.nav__subList {
+  background-color: #007cff30;
+  list-style: none;
+  font-size: 0;
+}
+.nav__listItem,
+.nav__subListItem {
+  list-style-type: none;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bolder;
+  display: inline-block;
+  position: relative;
+  padding: 1rem;
+}
+.nav__subList {
+  position: absolute;
+  display: none;
+  top: 5.1rem;
+  right: -0.7rem;
+}
+.nav__subListItem {
+  display: block;
+}
+.nav__listItem:hover ul {
+  display: block;
+  background-color: #007cff30;
+}
+.nav__listItem a {
+  color: rgb(189, 194, 48);
+  text-decoration: none;
+  margin: 1rem;
+  padding: 1rem;
+}
+.nav__listItem:hover {
+  background-color: #007bff4f;
+}
+.nav__subListItem:hover {
+  background-color: #007bffdb;
+}
+
+/*FORMS*/
+form {
+  font-size: 2rem;
+}
+form fieldset {
+  padding: 1rem;
+  border-color: salmon;
+}
+.button {
+  background-color: #23d0b0b4;
+  color: blanchedalmond;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover {
+  transform: scale(1.1, 1.1);
+}
+.inputFormItem {
+  width: 15rem;
+  height: 1.6rem;
+  transition: 0.7s;
+}
+
+.inputFormItem:focus {
+  width: 18rem;
+  height: 1.9rem;
+}
+
+/*FOOTER*/
+footer div a img {
+  margin: 0.5rem;
+  width: 3rem;
+}
+footer p {
+  font-size: 3rem;
+}
+footer p img {
+  width: 3rem;
+}
+
+/*PRODUCTS PAGE AND GRID*/
+.productsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr 1fr;
+}
+.productsGrid__box {
+  margin: 0.1rem;
+  padding: 1rem;
+  background-color: #45a29170;
+}
+.productsGrid__box-header {
+  font-size: 3rem;
+}
+.productsGrid__box-item {
+  font-size: 2rem;
+}
+.producsItem {
+  list-style-type: none;
+}
+
+/*TREATMENTS PAGE GRID*/
+.treatmentsGrid {
+  display: grid;
+  grid-template-areas:
+    "headingTreatment headingTreatment"
+    "treatment-1 publicidad"
+    "treatment-2 publicidad"
+    "treatment-3 publicidad"
+    "treatment-4 publicidad";
+}
+.headingTreatmentGrid {
+  grid-area: headingTreatment;
+}
+.treatmentGrid-1 {
+  grid-area: treatment-1;
+}
+.treatmentGrid-2 {
+  grid-area: treatment-2;
+}
+.treatmentGrid-3 {
+  grid-area: treatment-3;
+}
+.treatmentGrid-4 {
+  grid-area: treatment-4;
+}
+.publicityGrid {
+  grid-area: publicidad;
+}
+
+/*MAIN PAGE AND GRID*/
+section img {
+  max-width: 95%;
+}
+.mainGrid {
+  display: grid;
+  grid-template-areas:
+    "headingMain headingMain"
+    "sectionMainGrid-1 sectionMainGrid-2"
+    "sectionMainGrid-3 sectionMainGrid-4";
+}
+
+.headingMainGrid {
+  grid-area: headingMain;
+}
+
+.sectionMainGrid-1 {
+  grid-area: sectionMainGrid-1;
+}
+
+.sectionMainGrid-2 {
+  grid-area: sectionMainGrid-2;
+}
+
+.sectionMainGrid-3 {
+  grid-area: sectionMainGrid-3;
+}
+
+.sectionMainGrid-4 {
+  grid-area: sectionMainGrid-4;
+}

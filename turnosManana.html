@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turnos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!--HEADER -->
+    <header>
+      <!--NAV BAR-->
+      <div>
+        <a href="index.html" class="logo">
+          <img src="./img/logo.png" alt="logo" width="50" id="logo" />
+        </a>
+        <nav>
+          <ul class="nav__list">
+            <li class="nav__listItem">
+              <a href="index.html">INICIO</a>
+            </li>
+            <li class="nav__listItem">
+              <a href="tratamientos.html">TRATAMIENTOS</a>
+            </li>
+            <li class="nav__listItem">
+              <a href="productos.html">PRODUCTOS</a>
+            </li>
+            <li class="nav__listItem">
+              <a href="">TURNOS</a>
+              <ul class="nav__subList">
+                <li class="nav__subListItem">
+                  <a href="turnosMañana.html">MAÑANA</a>
+                </li>
+                <li class="nav__subListItem">
+                  <a href="turnosTarde.html">TARDE</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav__listItem">
+              <a href="consultas.html">CONSULTAS</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--MAIN-->
+    <main>
+      <h1>Reserva de Turnos</h1>
+      <h3>Ingrese sus datos y una fecha</h3>
+      <form action="">
+        <fieldset>
+          <legend>TURNO MAÑANA</legend>
+          <label for="nombre">Nombre </label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Ingrese su nombre"
+            class="inputFormItem"
+          />
+          <br /><br />
+          <label for="apellido">Apellido</label>
+          <input
+            type="text"
+            name="apellido"
+            id="apellido"
+            placeholder="Ingrese su apellido"
+            class="inputFormItem"
+          />
+          <br /><br />
+          <label for="email">Correo electrónico</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Ingrese su correo"
+            class="inputFormItem"
+          />
+          <br /><br />
+          <label for="fecha">Seleccione una fecha</label>
+          <input type="date" name="fecha" id="fecha" />
+          <br /><br />
+          <label for="comentarios">Comentarios</label>
+          <br />
+          <textarea
+            name="comentarios"
+            id="comentarios"
+            cols="50"
+            rows="6"
+            placeholder="Ingrese algún comentario"
+          ></textarea>
+          <br /><br />
+          <input class="button" type="submit" value="Enviar" />
+          <input class="button" type="reset" value="Limpiar" />
+        </fieldset>
+      </form>
+    </main>
+    <!--FOOTER-->
+    <footer>
+      <div>
+        <a href="https://www.facebook.com/" target="blank"
+          ><img src="img/fbLogo.png" alt="Facebook"
+        /></a>
+        <a href="https://twitter.com/" target="blank"
+          ><img src="img/twitterLogo.png" alt="Twitter"
+        /></a>
+        <a href="https://www.instagram.com/" target="blank"
+          ><img src="img/instaLogo.png" alt="Instagram"
+        /></a>
+        <a href="https://web.whatsapp.com/" target="blank"
+          ><img src="img/whatsappLogo.png" alt="Whatsapp"
+        /></a>
+      </div>
+      <p><img src="img/phoneImg.png" alt="teléfono" /> (011)1500000000</p>
+    </footer>
+  </body>
+</html>
