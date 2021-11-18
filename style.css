@@ -7,7 +7,6 @@
 }
 html {
   font-size: 62.5%;
-  font-family: "Poppins", sans-serif;
 }
 body {
   background-image: url("https://ffwallpaper.com/card/sunset-sky/sunset-sky-10.jpg");
@@ -19,9 +18,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: blanchedalmond;
 }
-.borderGrid,
-footer,
-.navList {
+footer {
   border: 1px solid #45a29170;
 }
 h1 {
@@ -31,9 +28,7 @@ h1 {
   background-image: linear-gradient(to bottom, #18443cba, #45a29170);
   border: 1px solid #45a29170;
 }
-main,
-section,
-.headingTreatmentGrid {
+main {
   animation-duration: 2.5s;
   animation-name: show;
 }
@@ -46,73 +41,31 @@ section,
   }
 }
 
-h3 {
+h2 {
   color: blanchedalmond;
-  font-size: 3rem;
   margin: 2rem;
 }
 p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 4rem;
   margin: 2rem;
 }
 
+.main {
+  margin-top: 45px;
+}
+
 /*NAVIGATION*/
-.navList {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
-  width: auto;
-}
-.navList,
-.navSubList {
-  background-color: #007cff30;
-  list-style: none;
-  font-size: 0;
-}
-.navListItem,
-.navSubListItem {
-  list-style-type: none;
-  font-size: 2rem;
-  font-style: italic;
-  font-weight: bolder;
-  display: inline-block;
-  position: relative;
-  padding: 1rem;
-}
-.navSubList {
-  position: absolute;
-  display: none;
-  top: 5.1rem;
-  right: -0.7rem;
-}
-.navSubListItem {
-  display: block;
-}
-.navListItem:hover ul {
-  display: block;
-  background-color: #007cff30;
-}
-.navListItem a {
-  color: rgb(189, 194, 48);
-  text-decoration: none;
-  margin: 1rem;
-  padding: 1rem;
-}
-.navListItem:hover {
-  background-color: #007bff4f;
-}
-.navSubListItem:hover {
-  background-color: #007bffdb;
+.nav-item:hover {
+  background-color: #77c9ae23;
 }
 
 /*FORMS*/
 form {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 form fieldset {
-  padding: 1rem;
+  padding: 3rem;
   border-color: salmon;
 }
 .button {
@@ -128,14 +81,14 @@ form fieldset {
   transform: scale(1.1, 1.1);
 }
 .inputFormItem {
-  width: 15rem;
-  height: 1.6rem;
+  width: 20rem;
+  height: 1.8rem;
   transition: 0.7s;
 }
 
 .inputFormItem:focus {
-  width: 18rem;
-  height: 1.9rem;
+  width: 25rem;
+  height: 2rem;
 }
 
 /*FOOTER*/
@@ -171,63 +124,7 @@ footer p img {
   list-style-type: none;
 }
 
-/*TREATMENTS PAGE GRID*/
-.treatmentsGrid {
-  display: grid;
-  grid-template-areas:
-    "headingTreatment headingTreatment"
-    "treatment-1 publicidad"
-    "treatment-2 publicidad"
-    "treatment-3 publicidad"
-    "treatment-4 publicidad";
-}
-.headingTreatmentGrid {
-  grid-area: headingTreatment;
-}
-.treatmentGrid-1 {
-  grid-area: treatment-1;
-}
-.treatmentGrid-2 {
-  grid-area: treatment-2;
-}
-.treatmentGrid-3 {
-  grid-area: treatment-3;
-}
-.treatmentGrid-4 {
-  grid-area: treatment-4;
-}
-.publicityGrid {
-  grid-area: publicidad;
-}
-
-/*MAIN PAGE AND GRID*/
+/*INDEX MAIN PAGE*/
 section img {
   max-width: 95%;
-}
-.mainGrid {
-  display: grid;
-  grid-template-areas:
-    "headingMain headingMain"
-    "sectionMainGrid-1 sectionMainGrid-2"
-    "sectionMainGrid-3 sectionMainGrid-4";
-}
-
-.headingMainGrid {
-  grid-area: headingMain;
-}
-
-.sectionMainGrid-1 {
-  grid-area: sectionMainGrid-1;
-}
-
-.sectionMainGrid-2 {
-  grid-area: sectionMainGrid-2;
-}
-
-.sectionMainGrid-3 {
-  grid-area: sectionMainGrid-3;
-}
-
-.sectionMainGrid-4 {
-  grid-area: sectionMainGrid-4;
 }
