@@ -9,12 +9,18 @@
   padding: 1rem;
   background-color: $myColor;
 }
-.productsGridBox-header {
-  font-size: 3rem;
+
+$productMap: (
+  header: 3rem,
+  item: 2rem,
+);
+
+@each $key, $value in $productMap {
+  .productsGridBox-#{$key} {
+    font-size: $value;
+  }
 }
-.productsGridBox-item {
-  font-size: 2rem;
-}
+
 .producsItem {
   list-style-type: none;
 }

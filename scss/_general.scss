@@ -25,7 +25,7 @@ footer {
 }
 h1 {
   color: blanchedalmond;
-  font-size: 6rem;
+  font-size: $myFontSize * 3;
   text-align: center;
   background-image: linear-gradient(to bottom, #18443cba, $myColor);
   border: 1px solid $myColor;
