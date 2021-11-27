@@ -1,0 +1,35 @@
+/*NAVIGATION*/
+.nav-item:hover {
+  background-color: #77c9ae23;
+}
+
+/*FORMS*/
+form {
+  font-size: 1.5rem;
+}
+form fieldset {
+  padding: 3rem;
+  border-color: salmon;
+}
+.button {
+  background-color: #23d0b0b4;
+  color: blanchedalmond;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover {
+  transform: scale(1.1, 1.1);
+}
+.inputFormItem {
+  width: 20rem;
+  height: 1.8rem;
+  transition: 0.7s;
+}
+
+.inputFormItem:focus {
+  width: 25rem;
+  height: 2rem;
+}

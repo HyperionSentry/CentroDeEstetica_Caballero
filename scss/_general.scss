@@ -1,0 +1,58 @@
+/*GENERAL*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url("https://ffwallpaper.com/card/sunset-sky/sunset-sky-10.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 1em;
+  font-family: "Poppins", sans-serif;
+  color: blanchedalmond;
+}
+section img {
+  max-width: 95%;
+}
+footer {
+  border: 1px solid $myColor;
+}
+h1 {
+  color: blanchedalmond;
+  font-size: 6rem;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #18443cba, $myColor);
+  border: 1px solid $myColor;
+}
+main {
+  animation-duration: 2.5s;
+  animation-name: show;
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h2 {
+  color: blanchedalmond;
+  margin: 2rem;
+}
+p {
+  font-size: 2rem;
+  line-height: 4rem;
+  margin: 2rem;
+}
+
+.main {
+  margin-top: 45px;
+}

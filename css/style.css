@@ -1,13 +1,13 @@
+/*VARIABLES*/
 /*GENERAL*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-}
-html {
   font-size: 62.5%;
 }
+
 body {
   background-image: url("https://ffwallpaper.com/card/sunset-sky/sunset-sky-10.jpg");
   background-size: cover;
@@ -18,9 +18,15 @@ body {
   font-family: "Poppins", sans-serif;
   color: blanchedalmond;
 }
+
+section img {
+  max-width: 95%;
+}
+
 footer {
   border: 1px solid #45a29170;
 }
+
 h1 {
   color: blanchedalmond;
   font-size: 6rem;
@@ -28,10 +34,12 @@ h1 {
   background-image: linear-gradient(to bottom, #18443cba, #45a29170);
   border: 1px solid #45a29170;
 }
+
 main {
   animation-duration: 2.5s;
   animation-name: show;
 }
+
 @keyframes show {
   0% {
     opacity: 0;
@@ -40,11 +48,11 @@ main {
     opacity: 1;
   }
 }
-
 h2 {
   color: blanchedalmond;
   margin: 2rem;
 }
+
 p {
   font-size: 2rem;
   line-height: 4rem;
@@ -64,10 +72,12 @@ p {
 form {
   font-size: 1.5rem;
 }
+
 form fieldset {
   padding: 3rem;
   border-color: salmon;
 }
+
 .button {
   background-color: #23d0b0b4;
   color: blanchedalmond;
@@ -77,9 +87,11 @@ form fieldset {
   margin: 4px 2px;
   cursor: pointer;
 }
+
 .button:hover {
   transform: scale(1.1, 1.1);
 }
+
 .inputFormItem {
   width: 20rem;
   height: 1.8rem;
@@ -96,6 +108,7 @@ footer div a img {
   margin: 0.5rem;
   width: 3rem;
 }
+
 footer p {
   font-size: 3rem;
 }
@@ -109,22 +122,23 @@ footer p img {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.5fr 1fr 1fr 1fr;
 }
+
 .productsGridBox {
   margin: 0.1rem;
   padding: 1rem;
   background-color: #45a29170;
 }
+
 .productsGridBox-header {
   font-size: 3rem;
 }
+
 .productsGridBox-item {
   font-size: 2rem;
 }
+
 .producsItem {
   list-style-type: none;
 }
 
-/*INDEX MAIN PAGE*/
-section img {
-  max-width: 95%;
-}
+/*# sourceMappingURL=style.css.map */

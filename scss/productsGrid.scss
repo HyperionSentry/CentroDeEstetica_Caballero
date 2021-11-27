@@ -1,0 +1,20 @@
+/*PRODUCTS PAGE AND GRID*/
+.productsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr 1fr;
+}
+.productsGridBox {
+  margin: 0.1rem;
+  padding: 1rem;
+  background-color: $myColor;
+}
+.productsGridBox-header {
+  font-size: 3rem;
+}
+.productsGridBox-item {
+  font-size: 2rem;
+}
+.producsItem {
+  list-style-type: none;
+}
