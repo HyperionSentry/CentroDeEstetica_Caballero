@@ -27,7 +27,7 @@ footer {
 
 h1 {
   color: blanchedalmond;
-  font-size: 6rem;
+  font-size: 4rem;
   text-align: center;
   background-image: linear-gradient(to bottom, #18443cba, #45a29170);
   border: 1px solid #45a29170;
@@ -52,13 +52,13 @@ h2 {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 4rem;
   margin: 2rem;
 }
 
 .main {
-  margin-top: 45px;
+  margin-top: 80px;
 }
 
 /*NAVIGATION*/

@@ -24,7 +24,7 @@ footer {
 }
 h1 {
   color: blanchedalmond;
-  font-size: $myFontSize * 3;
+  font-size: $myFontSize * 2;
   text-align: center;
   background-image: linear-gradient(to bottom, #18443cba, $myColor);
   border: 1px solid $myColor;
@@ -47,11 +47,11 @@ h2 {
   margin: 2rem;
 }
 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 4rem;
   margin: 2rem;
 }
 
 .main {
-  margin-top: 45px;
+  margin-top: 80px;
 }
