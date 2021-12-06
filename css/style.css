@@ -62,6 +62,11 @@ p {
 }
 
 /*NAVIGATION*/
+.navbar {
+  background-image: linear-gradient(to bottom, #18443cc9, #2ea58ff1);
+  font-size: 1.3rem;
+}
+
 .nav-item:hover {
   background-color: #77c9ae23;
 }
