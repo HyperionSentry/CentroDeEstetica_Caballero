@@ -21,10 +21,6 @@ section img {
   max-width: 95%;
 }
 
-footer {
-  border: 1px solid #45a29170;
-}
-
 h1 {
   color: blanchedalmond;
   font-size: 4rem;
@@ -61,24 +57,44 @@ p {
   margin-top: 80px;
 }
 
+.carouselStyle {
+  overflow: hidden;
+  max-height: 80vh;
+}
+
+.cardStyle {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card-textStyle {
+  line-height: 2rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 /*NAVIGATION*/
 .navbar {
   background-image: linear-gradient(to bottom, #18443cc9, #2ea58ff1);
-  font-size: 1.3rem;
+  font-size: 0.9rem;
 }
 
 .nav-item:hover {
   background-color: #77c9ae23;
 }
 
-/*FORMS*/
-form {
-  font-size: 1.5rem;
+/*FOOTER*/
+footer .text-center {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-form fieldset {
-  padding: 3rem;
-  border-color: salmon;
+/*PRODUCTS*/
+.productImg {
+  width: 100%;
+}
+
+/*FORMS*/
+form {
+  font-size: 1rem;
+  margin: 5rem;
 }
 
 .button {
@@ -93,55 +109,6 @@ form fieldset {
 
 .button:hover {
   transform: scale(1.1, 1.1);
-}
-
-.inputFormItem {
-  width: 20rem;
-  height: 1.8rem;
-  transition: 0.7s;
-}
-
-.inputFormItem:focus {
-  width: 25rem;
-  height: 2rem;
-}
-
-/*FOOTER*/
-footer div a img {
-  margin: 0.5rem;
-  width: 3rem;
-}
-
-footer p {
-  font-size: 3rem;
-}
-footer p img {
-  width: 3rem;
-}
-
-/*PRODUCTS PAGE AND GRID*/
-.productsGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.5fr 1fr 1fr 1fr;
-}
-
-.productsGridBox {
-  margin: 0.1rem;
-  padding: 1rem;
-  background-color: #45a29170;
-}
-
-.productsGridBox-header {
-  font-size: 3rem;
-}
-
-.productsGridBox-item {
-  font-size: 2rem;
-}
-
-.producsItem {
-  list-style-type: none;
 }
 
 /*# sourceMappingURL=style.css.map */

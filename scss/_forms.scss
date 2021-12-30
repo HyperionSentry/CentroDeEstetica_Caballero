@@ -1,0 +1,19 @@
+
+/*FORMS*/
+form {
+    font-size: 1rem;
+    margin: 5rem;
+  }
+  
+  .button {
+    background-color: #23d0b0b4;
+    color: blanchedalmond;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button:hover {
+    transform: scale(1.1, 1.1);
+  }

@@ -19,9 +19,7 @@ body {
 section img {
   max-width: 95%;
 }
-footer {
-  border: 1px solid $myColor;
-}
+
 h1 {
   color: blanchedalmond;
   font-size: $myFontSize * 2;
@@ -54,4 +52,18 @@ p {
 
 .main {
   margin-top: 80px;
+}
+
+.carouselStyle {
+  overflow: hidden;
+  max-height: 80vh;
+}
+
+.cardStyle {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card-textStyle {
+  line-height: 2rem;
+  background-color: rgba(0, 0, 0, 0.2);
 }

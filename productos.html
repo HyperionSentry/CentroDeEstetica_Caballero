@@ -20,7 +20,8 @@
       <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
         <div class="container-fluid">
           <a href="index.html" class="navbar-brand">
-            <img src="./img/logo.png" alt="logo" width="30" id="logo" />
+            <img src="./img/logo.svg" alt="logo" width="30" id="logo" />
+            Estética
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -47,60 +48,69 @@
         </div>
       </nav>
     </header>
-    <br />
     <!--MAIN-->
     <main>
-      <div class="container-fluid main">
+      <div class="container-fluid main" style="font-size: .5rem">
         <h1>Productos</h1>
-        <div class="productsGrid">
-          <div class="productsGridBox productsGridBox-header">Nombre</div>
-          <div class="productsGridBox productsGridBox-header">Aplicación</div>
-          <div class="productsGridBox productsGridBox-header">Beneficios</div>
-          <div class="productsGridBox productsGridBox-item">Producto 1</div>
-          <div class="productsGridBox productsGridBox-item">Día</div>
-          <div class="productsGridBox productsGridBox-item">
-            <ol>
-              <li class="producsItem">-Hidratación</li>
-              <li class="producsItem">-Luminocidad</li>
-            </ol>
+      <div class="container-fluid mb-5">
+        <div class="row row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 justify-content-center">
+          <div class="pb-4">
+            <div class="card cardStyle">
+              <div class="cardHeader">
+                <img src="img/ldh_hyaluronic_4d_serum_30ml_mobile_001.jpg" alt="Hyaluronic 4D Serum" class="productImg">
+              </div>
+              <div class="card-body text-center">
+                <h4 class="card-title fw-bold">Hyaluronic 4D Serum </h4>
+                <p class="card-text card-textStyle">Fórmulado con un activo que combina cuatro moléculas diferentes de ácido hialurónico que actúan en distintos niveles. Protege el estrato córneo, brinda hidratación y tiene efecto relleno. Forma un film sobre la superficie de la piel que retiene la humedad y la protege de la pérdida de agua.</p>
+              </div>
+            </div>
           </div>
-          <div class="productsGridBox productsGridBox-item">Producto 2</div>
-          <div class="productsGridBox productsGridBox-item">Noche</div>
-          <div class="productsGridBox productsGridBox-item">
-            <ol>
-              <li class="producsItem">-Limpieza</li>
-              <li class="producsItem">-Reparación</li>
-              <li class="producsItem">-Rejuvenecimiento</li>
-            </ol>
+          <div class="pb-4">
+            <div class="card cardStyle">
+              <div class="cardHeader">
+                <img src="img/ldh_form_nicotinamida_30ml_mobile_001.jpg" alt="Fórmula Nicotinamida" class="productImg">
+              </div>
+              <div class="card-body text-center">
+                <h4 class="card-title fw-bold">Fórmula Nicotinamida</h4>
+                <p class="card-text card-textStyle">Solución con alta concentración de nicotinamida, un eficaz antiseborreico que mejora el aspecto de los poros. Disminuye la presencia de pigmentación postinflamatoria, estabiliza la respuesta inmune de la piel y ayuda a inhibir los mediadores del proceso inflamatorio.</p>
+              </div>
+            </div>
           </div>
-          <div class="productsGridBox productsGridBox-item">Producto 3</div>
-          <div class="productsGridBox productsGridBox-item">Todo el día</div>
-          <div class="productsGridBox productsGridBox-item">
-            <ol>
-              <li class="producsItem">-Hidratación</li>
-              <li class="producsItem">-Brillo</li>
-            </ol>
+          <div class="pb-4">
+            <div class="card cardStyle">
+              <div class="cardHeader">
+                <img src="img/ldh_retinol_a_emulsion_30ml_mobile_001.jpg" alt="Retinol A+ Emulsión" class="productImg">
+              </div>
+              <div class="card-body text-center">
+                <h4 class="card-title fw-bold">Retinol A+ Emulsión</h4>
+                <p class="card-text card-textStyle">Emulsion con retinol y nicotinamida que previene los signos del envejecimiento. El retinol produce una gran renovacion celular y la nicotinamida mantiene la integridad de la piel.</p>
+              </div>
+            </div>
           </div>
-        </div>
       </div>
     </main>
     <!--FOOTER-->
-    <footer>
-      <div>
-        <a href="https://www.facebook.com/" target="blank">
-          <img src="img/fbLogo.png" alt="Facebook"/>
-       </a>
-        <a href="https://twitter.com/" target="blank">
-          <img src="img/twitterLogo.png" alt="Twitter"/>
-        </a>
-        <a href="https://www.instagram.com/" target="blank">
-          <img src="img/instaLogo.png" alt="Instagram"/>
-        </a>
-        <a href="https://web.whatsapp.com/" target="blank">
-          <img src="img/whatsappLogo.png" alt="Whatsapp"/>
-        </a>
+    <footer class="bg-transparent text-center">
+      <div class="container p-4 pb-0">
+        <section class="mb-4">
+          <a class="btn btn-floating m-1" href="#!" role="button">
+            <img src="img/facebook.svg" alt="Facebook"/>
+          </a>
+          <a class="btn btn-floating m-1" href="#!"role="button">
+            <img src="img/instagram.svg" alt="Instagram"/>
+          </a>
+        </section>
       </div>
-      <p><img src="img/phoneImg.png" alt="teléfono" /> (011)1500000000</p>
+      <div class="text-center p-3">
+        <div>
+          Dirección:
+          <a class="text-white" href="https://goo.gl/maps/1XyuUVM7uGWTjm4G6">Corrientes 1234</a>
+        </div>
+        <div>
+          Whatsapp:
+          <a class="text-white" href="https://web.whatsapp.com">1512345623</a>
+        </div>
+      </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
